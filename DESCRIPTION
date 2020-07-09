@@ -2,11 +2,10 @@ Package: fastkmedoids
 Type: Package
 Title: Faster K-Medoids Clustering Algorithms: FastPAM, FastCLARA, FastCLARANS
 Version: 1.0
-Date: 2020-05-30
+Date: 2020-06-30
 Author: Xun Li
 Maintainer: Xun Li <lixun910@gmail.com>
-Description: This package provides R wrappers of C++ implemenation of Faster K-Medoids
-  clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert, Peter J. Rousseeuw 2019.
+Description: R wrappers of C++ implemenation of Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert, Peter J. Rousseeuw 2019.
 Depends:  methods
 License: GPL (>= 2) 
 Collate:
