@@ -8,12 +8,12 @@ Maintainer: Xun Li <lixun910@gmail.com>
 Description: This package provides R wrappers of C++ implemenation of Faster K-Medoids
   clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert, Peter J. Rousseeuw 2019.
 Depends:  methods
-License: GPL (>= 2)
+License: GPL (>= 2) 
 Collate:
   RcppExports.R
   KmedoidsResult.R
 Encoding: UTF-8
-Imports: Rcpp (>= 1.0.4)
+Imports: Rcpp (>= 1.0.1)
 LinkingTo: Rcpp
 RoxygenNote: 7.1.0
 SystemRequirements: C++11
