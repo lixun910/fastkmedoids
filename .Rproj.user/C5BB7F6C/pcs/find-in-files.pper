@@ -1,0 +1,11 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+        ],
+        "path" : "",
+        "projectRelative" : true,
+        "query" : "rcpp_hello_world",
+        "regex" : false
+    }
+}

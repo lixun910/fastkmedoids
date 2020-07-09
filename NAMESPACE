@@ -1,0 +1,4 @@
+import(methods)
+useDynLib(fastkmedoids, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

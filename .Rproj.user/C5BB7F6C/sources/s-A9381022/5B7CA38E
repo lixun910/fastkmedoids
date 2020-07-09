@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590953260076.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5B7CA38E",
+    "lastKnownWriteTime" : 1594245986,
+    "last_content_update" : 1594245986,
+    "path" : "~/Github/fastkmedoids/src/pam.cpp",
+    "project_path" : "src/pam.cpp",
+    "properties" : {
+        "cursorPosition" : "355,29",
+        "marks" : "<:0,0\n>:0,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}

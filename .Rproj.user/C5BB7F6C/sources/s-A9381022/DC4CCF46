@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590994065156.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DC4CCF46",
+    "lastKnownWriteTime" : 1591060572,
+    "last_content_update" : 1591060572007,
+    "path" : "~/Github/fastkmedoids/man/fastclarans.Rd",
+    "project_path" : "man/fastclarans.Rd",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

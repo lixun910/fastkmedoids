@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590955633875.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D8EEF1A6",
+    "lastKnownWriteTime" : 1590992748,
+    "last_content_update" : 1590992748102,
+    "path" : "~/Github/fastkmedoids/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+        "cursorPosition" : "0,15",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

@@ -1,0 +1,614 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 25,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 26,
+                "name" : "run(const std::vector<int> &, int)",
+                "parent_name" : "BUILD",
+                "usr" : "c:@S@BUILD@F@run#&1$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#I#"
+            },
+            {
+                "column" : 11,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 107,
+                "name" : "shuffle(int &, int, int)",
+                "parent_name" : "LAB",
+                "usr" : "c:@S@LAB@F@shuffle#&I#I#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 119,
+                "name" : "getMinDist(int, int &, int &)",
+                "parent_name" : "LAB",
+                "usr" : "c:@S@LAB@F@getMinDist#I#&I#S0_#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 133,
+                "name" : "run(const int &, int)",
+                "parent_name" : "LAB",
+                "usr" : "c:@S@LAB@F@run#&1I#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 261,
+                "name" : "run",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@run#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 282,
+                "name" : "getMedoids",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@getMedoids#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 287,
+                "name" : "getResults",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@getResults#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 299,
+                "name" : "run(int &, int)",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@run#&I#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 356,
+                "name" : "getDistance(int, int)",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@getDistance#I#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 361,
+                "name" : "assignToNearestCluster(int &)",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@assignToNearestCluster#&I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 391,
+                "name" : "computeReassignmentCost(int, int)",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@computeReassignmentCost#I#I#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 432,
+                "name" : "run(int &, int)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@run#&I#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 499,
+                "name" : "findBestSwaps(int &, int &, int &, int &)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@findBestSwaps#&I#S0_#S0_#S0_#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 529,
+                "name" : "isMedoid(int)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@isMedoid#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 533,
+                "name" : "computeReassignmentCost(int, int &)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@computeReassignmentCost#I#&I#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 566,
+                "name" : "computeReassignmentCost(int, int)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@computeReassignmentCost#I#I#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 592,
+                "name" : "assignToNearestCluster(int &)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@assignToNearestCluster#&I#"
+            },
+            {
+                "column" : 14,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 628,
+                "name" : "argmin(const int &)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@argmin#&1I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 641,
+                "name" : "updateAssignment(int &, int, int)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@updateAssignment#&I#I#I#"
+            },
+            {
+                "column" : 14,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 704,
+                "name" : "updateSecondNearest(int, int &, int, double, int)",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@updateSecondNearest#I#&I#I#d#I#"
+            },
+            {
+                "column" : 28,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 721,
+                "name" : "randomSample(Xoroshiro128Random &, int, int, const int &)",
+                "parent_name" : "PAMUtils",
+                "usr" : "c:@S@PAMUtils@F@randomSample#&$@S@Xoroshiro128Random#I#I#&1I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 776,
+                "name" : "run",
+                "parent_name" : "CLARA",
+                "usr" : "c:@S@CLARA@F@run#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 822,
+                "name" : "getResults",
+                "parent_name" : "CLARA",
+                "usr" : "c:@S@CLARA@F@getResults#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 832,
+                "name" : "assignRemainingToNearestCluster(int &, int &, int &, int &)",
+                "parent_name" : "CLARA",
+                "usr" : "c:@S@CLARA@F@assignRemainingToNearestCluster#&I#S0_#S0_#S0_#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 870,
+                "name" : "run",
+                "parent_name" : "FastCLARA",
+                "usr" : "c:@S@FastCLARA@F@run#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 929,
+                "name" : "run",
+                "parent_name" : "CLARANS",
+                "usr" : "c:@S@CLARANS@F@run#"
+            },
+            {
+                "column" : 27,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1007,
+                "name" : "getResults",
+                "parent_name" : "CLARANS",
+                "usr" : "c:@S@CLARANS@F@getResults#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1023,
+                "name" : "operator=(const Assignment &)",
+                "parent_name" : "Assignment",
+                "usr" : "c:@S@Assignment@F@operator=#&1$@S@Assignment#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1039,
+                "name" : "computeCostDifferential(int, int, Assignment &)",
+                "parent_name" : "Assignment",
+                "usr" : "c:@S@Assignment@F@computeCostDifferential#I#I#&$@S@Assignment#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1108,
+                "name" : "recompute(int, int, double, int, double)",
+                "parent_name" : "Assignment",
+                "usr" : "c:@S@Assignment@F@recompute#I#I#d#I#d#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1139,
+                "name" : "assignToNearestCluster",
+                "parent_name" : "Assignment",
+                "usr" : "c:@S@Assignment@F@assignToNearestCluster#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1147,
+                "name" : "hasMedoid(int)",
+                "parent_name" : "Assignment",
+                "usr" : "c:@S@Assignment@F@hasMedoid#I#"
+            },
+            {
+                "column" : 21,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1165,
+                "name" : "run",
+                "parent_name" : "FastCLARANS",
+                "usr" : "c:@S@FastCLARANS@F@run#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1249,
+                "name" : "computeCostDifferential(int)",
+                "parent_name" : "FastAssignment",
+                "usr" : "c:@S@FastAssignment@F@computeCostDifferential#I#"
+            },
+            {
+                "column" : 22,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+                "kind" : 7,
+                "line" : 1289,
+                "name" : "performLastSwap(int)",
+                "parent_name" : "FastAssignment",
+                "usr" : "c:@S@FastAssignment@F@performLastSwap#I#"
+            }
+        ],
+        "file" : "/Users/xun/Github/fastkmedoids/src/pam.cpp",
+        "file_last_write" : 1594245986.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 30,
+                "name" : "Xoroshiro128Random",
+                "parent_name" : "",
+                "usr" : "c:@S@Xoroshiro128Random"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 50,
+                "name" : "nextInt(int)",
+                "parent_name" : "Xoroshiro128Random",
+                "usr" : "c:@S@Xoroshiro128Random@F@nextInt#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 56,
+                "name" : "nextLong",
+                "parent_name" : "Xoroshiro128Random",
+                "usr" : "c:@S@Xoroshiro128Random@F@nextLong#"
+            },
+            {
+                "column" : 12,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 66,
+                "name" : "nextDouble",
+                "parent_name" : "Xoroshiro128Random",
+                "usr" : "c:@S@Xoroshiro128Random@F@nextDouble#"
+            },
+            {
+                "column" : 22,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 71,
+                "name" : "randomSample(int, int)",
+                "parent_name" : "Xoroshiro128Random",
+                "usr" : "c:@S@Xoroshiro128Random@F@randomSample#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 88,
+                "name" : "PAMUtils",
+                "parent_name" : "",
+                "usr" : "c:@S@PAMUtils"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 98,
+                "name" : "DistMatrix",
+                "parent_name" : "",
+                "usr" : "c:@S@DistMatrix"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 110,
+                "name" : "setIds(const std::vector<int> &)",
+                "parent_name" : "DistMatrix",
+                "usr" : "c:@S@DistMatrix@F@setIds#&1$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 116,
+                "name" : "RawDistMatrix",
+                "parent_name" : "",
+                "usr" : "c:@S@RawDistMatrix"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 123,
+                "name" : "getDistance(int, int)",
+                "parent_name" : "RawDistMatrix",
+                "usr" : "c:@S@RawDistMatrix@F@getDistance#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 136,
+                "name" : "RDistMatrix",
+                "parent_name" : "",
+                "usr" : "c:@S@RDistMatrix"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 148,
+                "name" : "getDistance(int, int)",
+                "parent_name" : "RDistMatrix",
+                "usr" : "c:@S@RDistMatrix@F@getDistance#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 165,
+                "name" : "PAMInitializer",
+                "parent_name" : "",
+                "usr" : "c:@S@PAMInitializer"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 175,
+                "name" : "BUILD",
+                "parent_name" : "",
+                "usr" : "c:@S@BUILD"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 184,
+                "name" : "LAB",
+                "parent_name" : "",
+                "usr" : "c:@S@LAB"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 210,
+                "name" : "PAM",
+                "parent_name" : "",
+                "usr" : "c:@S@PAM"
+            },
+            {
+                "column" : 30,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 223,
+                "name" : "getAssignement",
+                "parent_name" : "PAM",
+                "usr" : "c:@S@PAM@F@getAssignement#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 277,
+                "name" : "FastPAM",
+                "parent_name" : "",
+                "usr" : "c:@S@FastPAM"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 291,
+                "name" : "run",
+                "parent_name" : "FastPAM",
+                "usr" : "c:@S@FastPAM@F@run#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 349,
+                "name" : "CLARA",
+                "parent_name" : "",
+                "usr" : "c:@S@CLARA"
+            },
+            {
+                "column" : 30,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 370,
+                "name" : "getMedoids",
+                "parent_name" : "CLARA",
+                "usr" : "c:@S@CLARA@F@getMedoids#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 412,
+                "name" : "FastCLARA",
+                "parent_name" : "",
+                "usr" : "c:@S@FastCLARA"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 440,
+                "name" : "Assignment",
+                "parent_name" : "",
+                "usr" : "c:@S@Assignment"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 475,
+                "name" : "CLARANS",
+                "parent_name" : "",
+                "usr" : "c:@S@CLARANS"
+            },
+            {
+                "column" : 30,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 7,
+                "line" : 492,
+                "name" : "getMedoids",
+                "parent_name" : "CLARANS",
+                "usr" : "c:@S@CLARANS@F@getMedoids#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 528,
+                "name" : "FastAssignment",
+                "parent_name" : "",
+                "usr" : "c:@S@FastAssignment"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+                "kind" : 2,
+                "line" : 556,
+                "name" : "FastCLARANS",
+                "parent_name" : "",
+                "usr" : "c:@S@FastCLARANS"
+            }
+        ],
+        "file" : "/Users/xun/Github/fastkmedoids/src/pam.h",
+        "file_last_write" : 1594246071.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 4,
+                "file" : "/Users/xun/Github/fastkmedoids/src/rcpp_fastkmedoids.cpp",
+                "kind" : 6,
+                "line" : 39,
+                "name" : "pam(Rcpp::NumericVector, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@pam#I#I#I#I#"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/xun/Github/fastkmedoids/src/rcpp_fastkmedoids.cpp",
+                "kind" : 6,
+                "line" : 89,
+                "name" : "fastpam(Rcpp::NumericVector, int, int, int, std::string, double, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@fastpam#I#I#I#I#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#d#I#"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/xun/Github/fastkmedoids/src/rcpp_fastkmedoids.cpp",
+                "kind" : 6,
+                "line" : 146,
+                "name" : "fastclara(Rcpp::NumericVector, int, int, int, std::string, double, int, double, bool, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@fastclara#I#I#I#I#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#d#I#d#b#I#"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/xun/Github/fastkmedoids/src/rcpp_fastkmedoids.cpp",
+                "kind" : 6,
+                "line" : 199,
+                "name" : "fastclarans(Rcpp::NumericVector, int, int, int, double, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@fastclarans#I#I#I#I#d#I#"
+            }
+        ],
+        "file" : "/Users/xun/Github/fastkmedoids/src/rcpp_fastkmedoids.cpp",
+        "file_last_write" : 1594247639.000000
+    }
+]

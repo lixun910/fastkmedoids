@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590993847140.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4127325016",
+    "id" : "306CFB56",
+    "lastKnownWriteTime" : 1591061098,
+    "last_content_update" : 1591061098392,
+    "path" : "~/Github/fastkmedoids/man/KmedoidsResult-class.Rd",
+    "project_path" : "man/KmedoidsResult-class.Rd",
+    "properties" : {
+    },
+    "read_only" : true,
+    "read_only_alternatives" : [
+        "R/KmedoidsResult.R"
+    ],
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
