@@ -5,7 +5,7 @@ Version: 1.0
 Date: 2020-07-13
 Author: Xun Li
 Maintainer: Xun Li <lixun910@gmail.com>
-Description: R wrappers of C++ implementation of Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert, Peter J. Rousseeuw 2019 <doi:10.1007/978-3-030-32047-8_16>
+Description: R wrappers of C++ implementation of Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert, Peter J. Rousseeuw 2019 <doi:10.1007/978-3-030-32047-8_16>.
 Depends:  methods
 License: GPL (>= 2) 
 Collate:
