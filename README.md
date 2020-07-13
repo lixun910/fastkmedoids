@@ -3,7 +3,7 @@
 
 ## Description
 
-This package provides R wrappers of C++ implemenation of Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert and Peter J. Rousseeuw 2019.
+This package provides R wrappers of C++ implementation of Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) proposed in Erich Schubert and Peter J. Rousseeuw 2019.
 
 ## Examples
 ```R

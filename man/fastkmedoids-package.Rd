@@ -6,7 +6,7 @@
   Faster K-Medoids Clustering Algorithms: FastPAM, FastCLARA, FastCLARANS
 }
 \description{
-  This package provides R wrappers of C++ implemenation of Faster K-Medoids
+  This package provides R wrappers of C++ implementation of Faster K-Medoids
   clustering algorithms (FastPAM, FastCLARA and FastCLARANS) 
   proposed in Erich Schubert and Peter J. Rousseeuw 2019.
 }
@@ -44,7 +44,8 @@ Xun Li
 Maintainer: Xun Li <lixun910@gmail.com>
 }
 \references{
-  Erich Schubert, Peter J. Rousseeuw  "Faster k-Medoids Clustering: Improving the PAM, CLARA, and CLARANS Algorithms" 2019 https://arxiv.org/abs/1810.05691
+  Erich Schubert, Peter J. Rousseeuw  "Faster k-Medoids Clustering: Improving the PAM, CLARA, and CLARANS Algorithms" 2019 
+  <doi:10.1007/978-3-030-32047-8_16>
 }
 \keyword{ fastkmedoids cluster kmedoid pam clara clarans }
 \seealso{

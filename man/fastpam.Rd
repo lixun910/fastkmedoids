@@ -48,4 +48,5 @@ initialization, and try multiple times if the runtime permits.
 Erich Schubert, Peter J. Rousseeuw 
 "Faster k-Medoids Clustering: Improving the PAM, CLARA, and CLARANS Algorithms"
 2019 https://arxiv.org/abs/1810.05691
+<doi:10.1007/978-3-030-32047-8_16>
 }

@@ -35,4 +35,5 @@ A faster variation of CLARANS, that can explore O(k) as many swaps at a
 Erich Schubert, Peter J. Rousseeuw 
 "Faster k-Medoids Clustering: Improving the PAM, CLARA, and CLARANS Algorithms"
 2019 https://arxiv.org/abs/1810.05691
+<doi:10.1007/978-3-030-32047-8_16>
 }
