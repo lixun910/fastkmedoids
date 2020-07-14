@@ -52,31 +52,29 @@ Maintainer: Xun Li <lixun910@gmail.com>
   https://arxiv.org/abs/1810.05691
 }
 \examples{
-  \dontrun{
-    # We use the demo data sets "USArrests"
-    data("USArrests")
-    df <- scale(USArrests)
-    dv <- as.vector(dist(df)) # compute distance matrix (lower triangular part)
-    n <- nrow(df)
-    
-    # PAM
-    clusters <- pam(dv, n, k=3)
-    clusters
-    
-    # FastPAM (use "LAB" initializer by default)
-    clusters1 <- fastpam(dv, n, k=3)
-    clusters1
-    
-    # FastPAM, specify "BUILD" as initializer
-    clusters2 <- fastpam(dv, n, k=3, initializer="BUILD")
-    clusters2
-    
-    # FastCLARA
-    clusters3 <- fastclara(dv, n, k=3, numsamples = 5, sampling=0.25)
-    clusters3
-    
-    # FastCLARANS
-    clusters4 <- fastclarans(dv, n, k=3, numlocal=2, maxneighbor=0.025)
-    clusters4
-  }
+  # We use the demo data sets "USArrests"
+  data("USArrests")
+  df <- scale(USArrests)
+  dv <- as.vector(dist(df)) # compute distance matrix (lower triangular part)
+  n <- nrow(df)
+  
+  # PAM
+  clusters <- pam(dv, n, k=3)
+  clusters
+  
+  # FastPAM (use "LAB" initializer by default)
+  clusters1 <- fastpam(dv, n, k=3)
+  clusters1
+  
+  # FastPAM, specify "BUILD" as initializer
+  clusters2 <- fastpam(dv, n, k=3, initializer="BUILD")
+  clusters2
+  
+  # FastCLARA
+  clusters3 <- fastclara(dv, n, k=3, numsamples = 5, sampling=0.25)
+  clusters3
+  
+  # FastCLARANS
+  clusters4 <- fastclarans(dv, n, k=3, numlocal=2, maxneighbor=0.025)
+  clusters4
 }
