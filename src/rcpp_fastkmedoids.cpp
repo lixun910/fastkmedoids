@@ -35,6 +35,7 @@ using namespace Rcpp;
 //' @param k The number of clusters to produce
 //' @param maxiter The maximum number of iterations (default: 0)
 //' @return KMedoids S4 class
+//' @export
 // [[Rcpp::export]]
 S4 pam(NumericVector rdist, int n, int k, int maxiter = 0) {
   //CharacterVector x = CharacterVector::create( "foo", "bar" )  
@@ -85,6 +86,7 @@ S4 pam(NumericVector rdist, int n, int k, int maxiter = 0) {
 //' (i.e., the improvements resulting from the swap have not decreased when the first swap was executed).
 //' @param seed Seed for random number generator. Default: 123456789
 //' @return KMedoids S4 class
+//' @export
 // [[Rcpp::export]]
 S4 fastpam(NumericVector rdist, int n, int k, int maxiter=0, std::string initializer="LAB", 
            double fasttol = 1.0, int seed = 123456789) {
@@ -142,6 +144,7 @@ S4 fastpam(NumericVector rdist, int n, int k, int maxiter=0, std::string initial
 //' @param independent NOT Keep the previous medoids in the next sample. Default: FALSE
 //' @param seed Seed for random number generator. Default: 123456789
 //' @return KMedoids S4 class
+//' @export
 // [[Rcpp::export]]
 S4 fastclara(NumericVector rdist, int n, int k, int maxiter=0, std::string initializer="LAB", 
              double fasttol = 1.0, int numsamples = 5, double sampling = 0.25, 
@@ -195,6 +198,7 @@ S4 fastclara(NumericVector rdist, int n, int k, int maxiter=0, std::string initi
 //'   Default: 2 * 0.0125, larger sampling rate than CLARANS (see Schubert and Rousseeuw, 2019)
 //' @param seed Seed for random number generator. Default: 123456789
 //' @return KMedoids S4 class
+//' @export
 // [[Rcpp::export]]
 S4 fastclarans(NumericVector rdist, int n, int k, 
                int numlocal=2, double maxneighbor=0.025, int seed = 123456789) {
