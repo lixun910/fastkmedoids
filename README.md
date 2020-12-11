@@ -38,9 +38,9 @@ This package provides R wrappers of C++ implementation of Faster K-Medoids clust
 
 ## Details
 
-The C++ Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) are ported from ELKI project (see http://elki-project.github.io/). To generate identical results, the random number generator, specifically xorshift+ generators, is also ported. The results between this fastkmedoids R package will be the same with ELKI if using same seed for random number generator.
+The C++ Faster K-Medoids clustering algorithms (FastPAM, FastCLARA and FastCLARANS) are ported from ELKI project (see http://elki-project.github.io/). To generate identical results, the random number generator, specifically the xorshift+ generator, is also ported. The results between this fastkmedoids R package should be the same with ELKI if using same initial seed for random number generator.
 
-Besides FastPAM, FastCLARA and FastCLARANS, this R wrapper also provide However, in the C++ code, the classic algorithms, including PAM, CLARA and CLARANS, are also implemented. If interested in writing wrappers for these algorithms, please use the github repository: https://github.com/lixun910/fastkmedoids
+Besides FastPAM, FastCLARA and FastCLARANS, the classic algorithms, including PAM, CLARA and CLARANS, are also implemented. If interested in writing wrappers for these algorithms, please use the github repository: https://github.com/lixun910/fastkmedoids
 
 All three algorithms take the distance matrix (lower triangular part, column wise storage) as input, which can be computed using dist() function in R (see the examples below). If using a pre-computed distance matrix, please transform it (lower triangular part, column wise storage) to a 1-dimensional array.
 
@@ -50,7 +50,7 @@ All three algorithms takes the same parameters as in ELKI. If the explanation of
 * FastCLARA: https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/clustering/kmeans/FastCLARA.html 
 * FastCLARANS: https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/clustering/kmeans/FastCLARANS.html
 
-The C++ code is a part of GeoDa (https://github.com/geodacenter/geoda) and libgeoda. If you are interested in a GUI version of this C++ implementation. You can download and use the free and cross-platform GeoDa software from https://geodacenter.github.io.
+The C++ code is a part of GeoDa (https://github.com/geodacenter/geoda) and libgeoda. If you are interested in a GUI version of this C++ implementation. You can download and use the free and cross-platform GeoDa software from https://geodacenter.github.io. The lab note of using K-Medoids in GeoDa is here: https://geodacenter.github.io/workbook/7c_clusters_3/lab7c.html#k-medoids
 
 ## Author(s)
 Xun Li Maintainer: Xun Li <lixun910@gmail.com>
