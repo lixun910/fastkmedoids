@@ -1344,4 +1344,3 @@ void FastAssignment::performLastSwap(int h)
         }
     }
 }
-

@@ -18,6 +18,7 @@
 #' @param k The number of clusters to produce
 #' @param maxiter The maximum number of iterations (default: 0)
 #' @return KMedoids S4 class
+#' @export
 pam <- function(rdist, n, k, maxiter = 0L) {
     .Call(`_fastkmedoids_pam`, rdist, n, k, maxiter)
 }
@@ -46,6 +47,7 @@ pam <- function(rdist, n, k, maxiter = 0L) {
 #' (i.e., the improvements resulting from the swap have not decreased when the first swap was executed).
 #' @param seed Seed for random number generator. Default: 123456789
 #' @return KMedoids S4 class
+#' @export
 fastpam <- function(rdist, n, k, maxiter = 0L, initializer = "LAB", fasttol = 1.0, seed = 123456789L) {
     .Call(`_fastkmedoids_fastpam`, rdist, n, k, maxiter, initializer, fasttol, seed)
 }
@@ -76,6 +78,7 @@ fastpam <- function(rdist, n, k, maxiter = 0L, initializer = "LAB", fasttol = 1.
 #' @param independent NOT Keep the previous medoids in the next sample. Default: FALSE
 #' @param seed Seed for random number generator. Default: 123456789
 #' @return KMedoids S4 class
+#' @export
 fastclara <- function(rdist, n, k, maxiter = 0L, initializer = "LAB", fasttol = 1.0, numsamples = 5L, sampling = 0.25, independent = FALSE, seed = 123456789L) {
     .Call(`_fastkmedoids_fastclara`, rdist, n, k, maxiter, initializer, fasttol, numsamples, sampling, independent, seed)
 }
@@ -101,6 +104,7 @@ fastclara <- function(rdist, n, k, maxiter = 0L, initializer = "LAB", fasttol = 
 #'   Default: 2 * 0.0125, larger sampling rate than CLARANS (see Schubert and Rousseeuw, 2019)
 #' @param seed Seed for random number generator. Default: 123456789
 #' @return KMedoids S4 class
+#' @export
 fastclarans <- function(rdist, n, k, numlocal = 2L, maxneighbor = 0.025, seed = 123456789L) {
     .Call(`_fastkmedoids_fastclarans`, rdist, n, k, numlocal, maxneighbor, seed)
 }
