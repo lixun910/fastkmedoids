@@ -157,7 +157,7 @@ S4 fastclara(NumericVector rdist, int n, int k, int maxiter=0, std::string initi
   if (initializer.compare("BUILD")) {
     init = new BUILD(&dm);
   } else {
-    init = new LAB(&dm);
+    init = new LAB(&dm, seed);
   }
   
   FastCLARA clara(n, &dm, init, k, maxiter, fasttol, numsamples, sampling, independent, seed);

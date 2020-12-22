@@ -32,7 +32,7 @@ class Xoroshiro128Random
     signed long long s0;
     signed long long s1;
 public:
-    Xoroshiro128Random(signed long long xor64 = 123456789) {
+    Xoroshiro128Random(signed long long xor64) {
         // set seed
         // XorShift64* generator to seed:
         if (xor64 == 0)
@@ -185,7 +185,7 @@ class LAB : public PAMInitializer
 {
     
 public:
-    LAB(DistMatrix* dist, int seed=123456789) : PAMInitializer(dist), random(seed) {}
+    LAB(DistMatrix* dist, int seed) : PAMInitializer(dist), random(seed) {}
     virtual ~LAB(){}
     virtual std::vector<int> run(const std::vector<int>& ids, int k);
     
@@ -359,7 +359,7 @@ public:
     // independent NOT Keep the previous medoids in the next sample
     //    false: using previous medoids in next sample
     CLARA(int num_obs, DistMatrix* dist_matrix,  PAMInitializer* init,
-          int k, int maxiter, int numsamples, double sampling, bool independent, int seed=123456789);
+          int k, int maxiter, int numsamples, double sampling, bool independent, int seed);
     
     virtual ~CLARA();
     
@@ -424,7 +424,7 @@ public:
     //    true if numsamples > 1
     FastCLARA(int num_obs, DistMatrix* dist_matrix, PAMInitializer* init,
               int k, int maxiter, double fasttol,
-              int numsamples, double sampling, bool independent, int seed=123456789);
+              int numsamples, double sampling, bool independent, int seed);
     
     virtual ~FastCLARA() {}
     
@@ -481,7 +481,7 @@ public:
     // maxneighbor Sampling rate. If less than 1, it is considered to be a relative value.
     //    default:  0.0125
     CLARANS(int num_obs, DistMatrix* dist_matrix,
-            int k, int numlocal, double maxneighbor, int seed=123456789);
+            int k, int numlocal, double maxneighbor, int seed);
     
     virtual ~CLARANS();
     
@@ -562,7 +562,7 @@ public:
     // maxneighbor Sampling rate. If less than 1, it is considered to be a relative value.
     //    default:  2 * 0.0125, larger sampling rate
     FastCLARANS(int num_obs, DistMatrix* dist_matrix,
-                int k, int numlocal, double maxneighbor,  int seed=123456789);
+                int k, int numlocal, double maxneighbor,  int seed);
     virtual ~FastCLARANS() {}
     
     virtual double run();
