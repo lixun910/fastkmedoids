@@ -68,14 +68,14 @@ Maintainer: Xun Li <lixun910@gmail.com>
   clusters1
   
   # FastPAM, specify "BUILD" as initializer
-  clusters2 <- fastpam(dv, n, k=3, initializer="BUILD")
-  clusters2
+  #clusters2 <- fastpam(dv, n, k=3, initializer="BUILD")
+  #clusters2
   
   # FastCLARA
-  clusters3 <- fastclara(dv, n, k=3, numsamples = 5, sampling=0.25)
-  clusters3
+  #clusters3 <- fastclara(dv, n, k=3, numsamples = 5, sampling=0.25)
+  #clusters3
   
   # FastCLARANS
-  clusters4 <- fastclarans(dv, n, k=3, numlocal=2, maxneighbor=0.025)
-  clusters4
+  #clusters4 <- fastclarans(dv, n, k=3, numlocal=2, maxneighbor=0.025)
+  #clusters4
 }

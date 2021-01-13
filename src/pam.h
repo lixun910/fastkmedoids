@@ -32,11 +32,16 @@ class Xoroshiro128Random
     signed long long s0;
     signed long long s1;
 public:
-    Xoroshiro128Random(signed long long xor64) {
+    Xoroshiro128Random() {
+        
+    }
+    virtual ~Xoroshiro128Random() {}
+    
+    void SetSeed(signed long long xor64) {
         // set seed
         // XorShift64* generator to seed:
-        if (xor64 == 0)
-            xor64 = 4101842887655102017L;
+        //if (xor64 == 0)
+        //    xor64 = 4101842887655102017L;
         xor64 ^= (unsigned long long)xor64 >> 12; // a
         xor64 ^= xor64 << 25; // b
         xor64 ^= (unsigned long long)xor64 >> 27; // c
@@ -46,7 +51,7 @@ public:
         xor64 ^= (unsigned long long)xor64 >> 27; // c
         s1 = xor64 * 2685821657736338717L;
     }
-    virtual ~Xoroshiro128Random() {}
+    
     int nextInt(int n) {
         if (n <=0) return 0;
         int r =  (int)((n & -n) == n ? nextLong() & n - 1 // power of two
@@ -175,7 +180,7 @@ public:
 class BUILD : public PAMInitializer
 {
 public:
-    BUILD(DistMatrix* dist) : PAMInitializer(dist) {}
+    BUILD(DistMatrix* dist);
     virtual ~BUILD(){}
     virtual std::vector<int> run(const std::vector<int>& ids, int k);
 };
@@ -185,7 +190,7 @@ class LAB : public PAMInitializer
 {
     
 public:
-    LAB(DistMatrix* dist, int seed) : PAMInitializer(dist), random(seed) {}
+    LAB(DistMatrix* dist, int seed);
     virtual ~LAB(){}
     virtual std::vector<int> run(const std::vector<int>& ids, int k);
     
