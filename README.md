@@ -11,6 +11,9 @@ This package provides R wrappers of C++ implementation of Faster K-Medoids clust
 install.packages("fastkmedoids")
 ```
 ![cran status](https://www.r-pkg.org/badges/version/fastkmedoids)
+![cran_downloads](http://cranlogs.r-pkg.org/badges/grand-total/fastkmedoids)
+
+
 
 Install from source code:
 
