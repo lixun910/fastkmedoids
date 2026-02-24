@@ -29,15 +29,15 @@ using namespace boost;
  */
 class Xoroshiro128Random
 {
-    signed long long s0;
-    signed long long s1;
+    unsigned long long s0;
+    unsigned long long s1;
 public:
     Xoroshiro128Random() {
         
     }
     virtual ~Xoroshiro128Random() {}
     
-    void SetSeed(signed long long xor64) {
+    void SetSeed(unsigned long long xor64) {
         // set seed
         // XorShift64* generator to seed:
         //if (xor64 == 0)
@@ -58,9 +58,9 @@ public:
             : (unsigned long long)(((unsigned long long)nextLong() >> 32) * n) >> 32);
         return r;
     }
-    signed long long nextLong() {
-        signed long long t0 = s0, t1 = s1;
-        signed long long result = t0 + t1;
+    unsigned long long nextLong() {
+        unsigned long long t0 = s0, t1 = s1;
+        unsigned long long result = t0 + t1;
         t1 ^= t0;
         // left rotate: (n << d)|(n >> (INT_BITS - d));
         s0 = (t0 << 55) | ((unsigned long long)t0 >> (64 - 55));
