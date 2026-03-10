@@ -1,8 +1,8 @@
 Package: fastkmedoids
 Type: Package
 Title: Faster K-Medoids Clustering Algorithms: FastPAM, FastCLARA, FastCLARANS
-Version: 1.4
-Date: 2026-02-24
+Version: 1.5
+Date: 2026-03-10
 Authors@R: person(given = "Xun",
                   family = "Li",
                   role = c("aut", "cre"),
