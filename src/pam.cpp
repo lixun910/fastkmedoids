@@ -621,8 +621,11 @@ double FastPAM::assignToNearestCluster(std::vector<int> &means) {
             //throw new AbortException("Too many infinite distances. Cannot assign objects.");
             return 0;
         }
+        if(minindx2 < 0) {
+            minindx2 = minindx;  // Fall back to primary if no second-nearest exists
+        }
         //assignment.put(iditer, minindx | (minindx2 << 16));
-        assignment[iditer]  = minindx | (minindx2 << 16);
+        assignment[iditer] = minindx | (minindx2 << 16);
         //nearest.put(iditer, mindist);
         nearest[iditer] = mindist;
         //second.put(iditer, mindist2);
