@@ -14,6 +14,7 @@
 #define __XL_PAM_H
 
 #include <vector>
+#include <cstdlib> // std::strtod
 #if __cplusplus >= 201103
 #include <unordered_map>
 using namespace std;

@@ -15,6 +15,7 @@
 #include <vector>
 #include <set>
 #include <math.h>
+#include <cmath>     // std::sqrt
 #include <float.h>
 #include <algorithm>    // std::max
 
